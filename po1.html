@@ -9,20 +9,63 @@
     rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Inter', sans-serif;
+      padding-top: 60px;
+    }
+
+    h2 {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #555;
+    }
+
+    img {
+      border-radius: 0rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-height: 400px;
+      object-fit: cover;
+    }
+
+    .container {
+      max-width: 1000px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding-top: 30px;
+      }
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
+
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-6 text-center">
-        <img src="me.JPG" alt="photo of Mbakoverua" class="img-fluid">
+      <div class="col-md-6 text-center mb-4 mb-md-0">
+        <img src="me.JPG" alt="Photo of Mbakoverua" class="img-fluid">
       </div>
       <div class="col-md-6">
-        <h2>Hello, Im Mbakoverua</h2>
+        <h2>Hello, I’m <span class="highlight">Mbakoverua</span></h2>
         <p>
-          I’m a passionate youth advocate and emerging technologist committed to creating spaces where young people feel seen, supported, and empowered. Over the past year, I’ve hosted intersectionality-focused events at the LGBTQ Center, volunteered with the Foster Youth Museum to share stories of resilience, and collaborated with Helping Young People Elevate (HYPE) to spotlight youth experiences through art and community engagement. I also worked with Blaze Consulting and the Department of Children, Youth, and Their Families (DCYF) on a youth empowerment initiative, helping develop strategies to strengthen connections between government programs and underserved communities.
-As I continue to grow in my advocacy work, I’m expanding my skill set in technology—learning HTML, CSS, Bootstrap, and IT fundamentals—to explore how digital tools can drive social impact. My goal is to bridge youth advocacy and technology, using innovation to amplify voices, improve access to resources, and build inclusive platforms that help young people thrive. I’m passionate about merging creativity, tech, and activism to make systems more equitable and communities more connected. </p>
+          I’m a passionate youth advocate and emerging technologist committed to creating spaces where young people feel seen, supported, and empowered. Over the past year, I’ve hosted intersectionality-focused events at the LGBTQ Center, volunteered with the Foster Youth Museum to share stories of resilience, and collaborated with Helping Young People Elevate (HYPE) to spotlight youth experiences through art and community engagement. <br>
+          I also worked with Blaze Consulting and the Department of Children, Youth, and Their Families (DCYF) on a youth empowerment initiative, helping develop strategies to strengthen connections between government programs and underserved communities. <br>
+          As I continue to grow in my advocacy work, I’m expanding my skill set in technology—learning HTML, CSS, Bootstrap, and IT fundamentals—to explore how digital tools can drive social impact. My goal is to bridge youth advocacy and technology, using innovation to amplify voices, improve access to resources, and build inclusive platforms that help young people thrive. I’m passionate about merging creativity, tech, and activism to make systems more equitable and communities more connected. <br>
+        </p>
       </div>
     </div>
   </div>
+<footer class="text-center py-4 mt-5 text-muted">
+    <small>© 2025 Mbakoverua — Photography & Design</small>
+  </footer>
 </body>
 </html>
